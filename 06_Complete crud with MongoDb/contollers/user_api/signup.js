@@ -1,3 +1,4 @@
+import transporter from "../../Helpers/emailConfig.js";
 import User from "../../modal/user.js";
 import { signupSchema } from "../../validators/uservalidors.js";
 import bcrypt from "bcryptjs";

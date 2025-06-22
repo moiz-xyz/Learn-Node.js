@@ -1,4 +1,5 @@
 //  joii schema
+import Joi from "joi"
 
 export const signupSchema = Joi.object({
   username: Joi.string().min(2).required().messages({
